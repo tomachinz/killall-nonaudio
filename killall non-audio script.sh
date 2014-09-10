@@ -140,4 +140,6 @@ sudo killall -9 "Viber"
 echo "Current Free memory"
 top -l 1 | grep PhysMem: | awk '{print $10}'
 
-sleep 10
+echo
+echo "Closing in 3 secs
+sleep 3
